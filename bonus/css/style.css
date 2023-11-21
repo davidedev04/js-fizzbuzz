@@ -1,7 +1,6 @@
 
 #back_color{
     width: 100vw;
-    height: 100vh;
     background-color: #083b4c;
 }
 
@@ -13,4 +12,10 @@
     width: 75px;
     height: 75px;
     margin: 10px;
+    background-color: red;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
 }
