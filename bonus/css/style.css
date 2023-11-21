@@ -1,0 +1,16 @@
+
+#back_color{
+    width: 100vw;
+    height: 100vh;
+    background-color: #083b4c;
+}
+
+.color_white{
+    color: #fff;
+}
+
+.square{
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+}
