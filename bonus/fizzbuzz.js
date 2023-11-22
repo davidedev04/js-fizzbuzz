@@ -9,7 +9,7 @@ for (let i = 1; i <= 100; i++) {
     square.append(i);
     
     // vediamo per prima cosa se i è divisibile sia per 5 che per 10
-    if (i % 5 === 0 && i % 10 === 0) {
+    if (i % 5 === 0 && i % 3 === 0) {
         console.log("FizzBuzz");
         square.append ("FizzBuzz");
         square.style.backgroundColor = "#0f0";
@@ -30,6 +30,7 @@ for (let i = 1; i <= 100; i++) {
     // se le condizioni di sopra sono tutte false stampiamo in console solo il numero
     else {
         console.log(i);
+        square.style.backgroundColor = "#59b3d4";
     }
 
     container.append(square);
